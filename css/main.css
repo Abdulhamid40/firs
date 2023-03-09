@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: cursive;
 }
+.budy {
+    background-color: brown;
+}
 a {
     text-decoration: none;
 }
@@ -22,17 +25,38 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    flex-wrap: wrap;
 }
 .header__list {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 .header__logo {
     font-size: 36px;
     text-transform: uppercase;
+}
+.header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: rgb(101, 15, 86);
 }
 .header__link {
     font-size: 20px;
     text-transform: uppercase;
 }
 /* header end */
+.git {
+    display: flex;
+    justify-content: center;
+    padding: 400px;
+    font-size: 60px;
+}
+h1 {
+    flex-grow: 1;
+    display: grid;
+    place-items: center;
+    font-size: 60px;
+    text-transform: uppercase;
+}
