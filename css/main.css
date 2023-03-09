@@ -4,9 +4,7 @@
     box-sizing: border-box;
     font-family: cursive;
 }
-.budy {
-    background-color: brown;
-}
+
 a {
     text-decoration: none;
 }
@@ -40,7 +38,7 @@ ul {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: rgb(101, 15, 86);
+    background: rgb(57, 54, 57);
 }
 .header__link {
     font-size: 20px;
